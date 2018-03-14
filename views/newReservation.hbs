@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+      <div class="col-10">
+        <h1>Add new reservation</h1>
+      </div>
+    </div>
+    <!-- add a form here -->
+        <div class="row">
+        <div class="col">
+            <form action="/reservation" method="POST">
+              Customer Id :<br>
+              <input type="number" name="customer_id" required><br>
+              room ID :<br>
+              <input type="number" name="room_id" required><br>
+              check iN Date:<br>
+              <input type="date" name="check_in_date" required><br>
+              check Out Date:<br>
+              <input type="date" name="check_out_date" required><br>price 
+              Price:<br>
+              <input type="text" name="price"  required><br>
+              <button id="submit-btn" type="submit" >submit</button>
+              <input type="reset">
+            </form>   
+        </div>
+      </div>
+  </div>
